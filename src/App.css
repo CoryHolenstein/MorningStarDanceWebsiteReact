@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+.MainBannerImage {
+    height: auto;
+    max-width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.MainBannerText1 {
+    position: absolute;
+    top: 75px;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MainBannerText1A {
+    color: white;
+    font: bold 30px/50px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.MainBannerText2 {
+    position: absolute;
+    top: 18px;
+    width: 100%;
+}
+
+.MainBannerText2A {
+    color: orange;
+    font: bold 25px/30px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    padding: 10px;
+}
+
+
+
+.content {
+
+    margin-top: 10px;
+    padding: 12px;
+    text-align:center;
+}
+
+.footer {
+  background: blue;
+  font-size: 20px;
   color: white;
+  border-top: 1px solid #E7E7E7;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+Nav {
+    width: 52%;
+    margin: 0 auto;
+
+    background-color: rgb(10,10,100, 0.8);
+    text-align: center;
+    font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.NavBarLinks {
+    margin: 10px;
+    color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    .NavBarLinks:hover {
+        color: red;
+    }
