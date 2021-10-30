@@ -24,7 +24,7 @@ const NavigationBar = () => {
             <Navbar bg="dark" variant={"dark"} expand="lg">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
             
-                    <Navbar.Brand href="/Home">MorningStar Dance</Navbar.Brand>
+                    <Navbar.Brand href="/Home">MorningStar</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav

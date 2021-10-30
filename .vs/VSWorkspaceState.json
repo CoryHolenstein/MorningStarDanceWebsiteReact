@@ -4,8 +4,9 @@
     "\\public",
     "\\src",
     "\\src\\GlobalWebpageHooks",
-    "\\src\\Pages"
+    "\\src\\Pages",
+    "\\src\\Photos"
   ],
-  "SelectedNode": "\\src\\GlobalWebpageHooks\\NavigationBar.js",
+  "SelectedNode": "\\src\\App.css",
   "PreviewInSolutionExplorer": false
 }
