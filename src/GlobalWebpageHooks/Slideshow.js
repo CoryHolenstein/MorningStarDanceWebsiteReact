@@ -1,23 +1,24 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import dance_image_one from '../Photos/dance_1.jpg';
 
 const slideImages = [
     {
-        url: '../Photos/dance_1.jpg',
+        url: '',
         caption: 'Slide 1'
     },
     {
-        url: '../Photos/dance_2.jpg',
+        url: './../Photos/dance_2.jpg',
         caption: 'Slide 2'
     },
     {
-        url: '../Photos/dance_3.jpg',
+        url: './Photos/dance_3.jpg',
         caption: 'Slide 3'
     },
     {
-    url: '../Photos/dance_4.jpg',
-    caption: 'Slide 4'
+        url: '../Photos/dance_4.jpg',
+        caption: 'Slide 4'
     },
 ];
 
