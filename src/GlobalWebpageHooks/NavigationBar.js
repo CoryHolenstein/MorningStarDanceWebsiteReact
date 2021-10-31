@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import { Navbar, NavDropdown, Form, FormControl, Button, Nav } from 'react-bootstrap'
+import { Navbar, NavDropdown, Form, FormControl, Button, Nav, Container } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom';
 
 import '../App.css';
@@ -21,8 +21,9 @@ const NavigationBar = () => {
         
        
             <div>
-            <Navbar bg="dark" variant={"dark"} expand="lg">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
+            <Navbar bg="primary" variant={"primary"} expand="lg">
+                <Container>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary"  >
             
                     <Navbar.Brand href="/Home">MorningStar</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -39,7 +40,8 @@ const NavigationBar = () => {
                         </Nav>
 
                     </Navbar.Collapse>
-                </nav>
+                    </nav>
+                </Container>
             </Navbar>
                
             </div>
