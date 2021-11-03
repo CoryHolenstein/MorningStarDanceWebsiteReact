@@ -25,8 +25,9 @@ const Home = () => {
 
             <div className="content">
 
-                <p> Hello there </p>
+               
                 <Slideshow />
+                <p> Welcome to MorningStar Dance studio </p>
                 </div>
             <Footer />
         </div>

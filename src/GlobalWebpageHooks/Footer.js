@@ -3,10 +3,20 @@ import React from "react";
 
 const Footer = () => {
     return (
+        <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        <div className="footer">
+
+            MorningStar Dance Academy of Atlanta copyright 2021
+
+        </div>
       
-                <div className="footer">MorningStar Dance Academy of Atlanta copyright 2021 </div>
-      
-        
+
+        </div>
     );
 };
 export default Footer;
