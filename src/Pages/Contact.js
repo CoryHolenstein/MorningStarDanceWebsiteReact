@@ -46,7 +46,9 @@ const Contact = () => {
                     <center><img class="ContactBanner" src="http://info.morningstardance.com/img/schoolpic2.jpg" alt="" width="35%" max-wdith="45%" height="15%" max-height="35%" /> </center>
                   
                     <h3> MorningStar Dance Academy Of Atlanta </h3>
-                    <h1>   Contact us!  </h1>
+                    <h2> Call us! </h2>
+                    <h3>678-516-3026</h3>
+                    <h1>   Email us!  </h1>
                     <form ref={form} onSubmit={sendEmail} >
                         <label>Name</label>
                         <input type="text" name="name" /> <br></br>
@@ -57,7 +59,7 @@ const Contact = () => {
                         <input type="file" name="file" /> <br></br>
                         <input type="submit" value="Send" /> <br></br>
                     </form>
-                   
+                
                 </div>
                 <div>
                     

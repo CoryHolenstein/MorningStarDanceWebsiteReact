@@ -32,7 +32,7 @@ const Slideshow = () => {
                 {slideImages.map((slideImage, index) => (
                     <div className="each-slide" key={index}>
                         <div>
-                            <img src={slideImage.url} width="25%" height="25%" /><br></br>
+                            <img src={slideImage.url} width="35%" height="32%" /><br></br>
                             <span>{slideImage.caption}</span>
                         </div>
                     </div>

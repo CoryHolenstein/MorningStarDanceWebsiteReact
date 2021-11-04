@@ -40,6 +40,13 @@
     padding: 12px;
     text-align:center;
 }
+.content-about {
+    margin-top: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding: 12px;
+    text-align: center;
+}
 
 .footer {
    justify-content:center;
@@ -56,14 +63,22 @@
   height: 40px;
   width: 100%;
 }
-Nav {
-    width: 51%;
-    margin: 0 auto;
 
+
+
+Nav {
     background-color: rgb(10,10,100, 0.8);
     text-align: center;
     font-size: 20px;
 }
+
+/*
+@media only screen and (min-width: 600px) {
+    nav {
+        margin: 0 auto;
+        width: 51%;
+    }
+}*/
 
 .NavBarLinks {
     margin: 10px;

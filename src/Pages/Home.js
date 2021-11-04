@@ -27,7 +27,9 @@ const Home = () => {
 
                
                 <Slideshow />
-                <p> Welcome to MorningStar Dance studio </p>
+                <p> Welcome to MorningStar Dance studio! </p>
+                <p> Your one-stop shop for all things dance. </p>
+                <p> We specialize in Ballet, Jazz, Point, Traditional and Folk, as well as modern dance!</p>
                 </div>
             <Footer />
         </div>
