@@ -3,6 +3,7 @@ import Home from './Pages/Home';
 import Error from './Pages/Error';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Connect from './Pages/Connect';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                       <Route path="/Home" component={Home} />
                       <Route path="/About" component={About} />
                       <Route path="/Contact" component={Contact} />
+                      <Route path="/Connect" component={Connect} />
                     
 
                       <Route component={Error} />

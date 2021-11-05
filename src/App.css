@@ -46,25 +46,30 @@
     padding-left: 200px;
     padding: 12px;
     text-align: center;
+    
 }
 
 .footer {
-   justify-content:center;
-  background: blue;
-  font-size: 15px;
-  color: white;
-  padding-top: 20px;
-  border-top: 1px solid #E7E7E7;
-  text-align: center;
-  padding: 15px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 40px;
-  width: 100%;
+    justify-content: center;
+    background: #007bff;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
 }
 
-
+p {
+    font-family:serif;
+    font-size:large;
+    font-weight:600;
+}
 
 Nav {
     background-color: rgb(10,10,100, 0.8);
