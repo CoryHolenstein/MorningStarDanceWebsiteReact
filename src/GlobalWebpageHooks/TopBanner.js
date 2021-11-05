@@ -20,12 +20,11 @@ const TopBanner = () => {
 
         <div className="App">
 
-
+            <header>
             <div className="BannerImage">
                 <center><img class="MainBannerImage" src={BannerImage} alt="Mainbanner" /> </center>
             </div>
-           
-          
+           </header>
 
         </div>
 

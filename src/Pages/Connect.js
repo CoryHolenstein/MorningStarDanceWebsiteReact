@@ -24,7 +24,7 @@ const Connect = () => {
             <TopBanner />
             <NavigationBar />
 
-            <div className="content">
+            <div className="content-connect">
                 <h1>Connect with us on social media!</h1>
                 <div className="d-grid gap-3">
                     <a href="https://www.facebook.com/MorningStar-Dance-Academy-of-Atlanta-160797744008230/" title="facebook image">

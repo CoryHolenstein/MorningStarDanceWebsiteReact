@@ -2,53 +2,38 @@
 .MainBannerImage {
     height: auto;
     max-width: 100%;
+    background-color: rgb(128 128 128);
 }
-
-
-.MainBannerText1 {
-    position: absolute;
-    top: 75px;
-    width: 100%;
-}
-
-.MainBannerText1A {
-    color: white;
-    font: bold 30px/50px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    padding: 10px;
-}
-
-
-.MainBannerText2 {
-    position: absolute;
-    top: 18px;
-    width: 100%;
-}
-
-.MainBannerText2A {
-    color: orange;
-    font: bold 25px/30px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    padding: 10px;
-}
-
 
 
 .content {
-
-    margin-top: 10px;
-    padding: 12px;
-    text-align:center;
-}
-.content-about {
-    margin-top: 10px;
-    padding-right: 200px;
-    padding-left: 200px;
+    background-color: rgb(128 128 128);
     padding: 12px;
     text-align: center;
-    
+}
+.content-contact {
+    background-color: rgb(128 128 128);
+    padding: 12px;
+    text-align: center;
 }
 
+.content-about {
+    background-color: rgb(128 128 128);
+    text-align: center;
+    padding: 12px;
+    padding-bottom: 10%;
+}
+.content-connect {
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 60%;
+}
+@media only screen and (min-width: 600px) {
+    .content-connect {
+        padding-bottom: 28%;
+    }
+}
 .footer {
     justify-content: center;
     background: #007bff;
