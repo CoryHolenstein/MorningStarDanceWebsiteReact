@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className="content-contact">
                 <div className="flex-container">
-                    <center><img class="ContactBanner" src="http://info.morningstardance.com/img/schoolpic2.jpg" alt="" width="35%" max-wdith="45%" height="15%" max-height="35%" /> </center>
+                    <center><img class="ContactBanner" src="http://info.morningstardance.com/img/schoolpic2.jpg" alt="" width="35%" max-width="45%" height="15%" max-height="35%" /> </center>
                   
                     <h3> MorningStar Dance Academy Of Atlanta </h3>
                     <h2> Call us! </h2>

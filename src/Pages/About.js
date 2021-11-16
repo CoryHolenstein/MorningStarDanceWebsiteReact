@@ -25,8 +25,16 @@ const About = () => {
             <div className="content-about">
                 <h1>About Us!</h1>
                 <p>MorningStar dance is an award winning dance studio located in johns creek. </p>
-                <p>Founded in 2004, MorningStar Dance Academy of Atlanta (MSDA) offers high quality training in classical ballet, pointe, contemporary dance, jazz, character dance, and Chinese traditional folk dance.
-                    </p> <p>
+                <p>Founded in 2004, MorningStar Dance Academy of Atlanta (SDA) offers high quality training in classical ballet, pointe, contemporary dance, jazz, character dance, and Chinese traditional folk dance.
+                </p>
+              
+                    <center>
+                <iframe class="about-video" height="250px" width="75%" max-width="50%" max-height="290px"
+                    src="https://www.youtube.com/embed/xMFcZLnZ1H4">
+                        </iframe>
+                    </center>
+                
+                <p>
                     The school's teaching methods offer students an age appropriate, challenging, and enjoyable
                     program that combines personal enrichment with technical preparation for professional work.</p>
 
@@ -37,9 +45,10 @@ const About = () => {
                 <p>
                     Students of MSDA are offered many performance opportunities throughout the year.
                     They participate frequently in local community activities such as multi-cultural festivals and celebrations, and are also provided many opportunities to perform whole act ballets such as
+                    </p><p>
                     Coppelia, Sleeping Beauty, Swan Lake, etc. This allows them to gain valuable stage experiences as well as confidence to perform in the future.
                 </p>
-
+      
                 <p>
 
                     Founded in 2004, MorningStar Dance Academy of Atlanta (MSDA) offers high quality training in classical ballet, pointe, contemporary dance, jazz, character dance, and Chinese traditional folk dance. The school's teaching methods offer students an age appropriate, challenging, and enjoyable program that combines personal enrichment with technical preparation for professional work.

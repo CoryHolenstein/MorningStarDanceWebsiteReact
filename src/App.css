@@ -21,11 +21,17 @@
 .content-about {
     background-color: rgb(128 128 128);
     text-align: center;
+    justify-content:center;
     padding: 12px;
     padding-bottom: 10%;
     padding-right: 15%;
     padding-left: 15%;
 }
+.about-video {
+    text-align: center;
+    justify-content: center;
+}
+
 .content-connect {
     background-color: rgb(128, 128, 128);
     text-align: center;
