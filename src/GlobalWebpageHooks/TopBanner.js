@@ -18,7 +18,7 @@ const TopBanner = () => {
     return (
 
 
-        <div className="App">
+        <div className="header">
 
             <header>
             <div className="BannerImage">
