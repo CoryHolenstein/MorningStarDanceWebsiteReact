@@ -21,9 +21,9 @@ const NavigationBar = () => {
         
        
             <div>
-            <Navbar bg="primary" variant={"primary"} expand="lg">
+            <Navbar bg="dark" variant={"dark"} expand="lg">
                 <Container>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary"  >
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
             
                     <Navbar.Brand href="/Home">MorningStar</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
