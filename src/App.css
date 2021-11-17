@@ -1,4 +1,10 @@
 
+.App {
+    background-color: rgb(128 128 128);
+
+    min-height: 100vh;
+}
+
 .MainBannerImage {
     height: auto;
     max-width: 100%;
@@ -34,6 +40,7 @@
 
 .content-connect {
     background-color: rgb(128, 128, 128);
+    //min-height: 100vh;
     text-align: center;
     width: 100%;
     padding-bottom: 35%;
