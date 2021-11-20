@@ -9,7 +9,7 @@ const Footer = () => {
             <br></br>
         <div className="footer">
 
-            MorningStar Dance Academy of Atlanta copyright 2021
+            MorningStar Dance Academy of Atlanta Copyright 2021
 
         </div>
       

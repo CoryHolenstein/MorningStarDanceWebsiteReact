@@ -38,6 +38,8 @@ const NavigationBar = () => {
                             <NavLink className="NavBarLinks"  to="/About">About</NavLink>
                             <NavLink className="NavBarLinks" to="/Contact">Contact</NavLink>
                             <NavLink className="NavBarLinks" to="/Connect">Connect</NavLink>
+                            <NavLink className="NavBarLinks" to="/Classes">Classes</NavLink>
+                            <NavLink className="NavBarLinks" to="/SchedulePage">Schedule</NavLink>
                         </Nav>
 
                     </Navbar.Collapse>
