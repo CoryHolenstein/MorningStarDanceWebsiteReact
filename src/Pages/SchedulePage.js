@@ -27,9 +27,7 @@ const SchedulePage = () => {
 
             <div className="content-about">
                 <h1>Schedule</h1>
-                <PDFViewer>
-                    <Schedule />
-                </PDFViewer>
+                       <Schedule/>
                 <br></br>
             </div>
             <Footer />
@@ -44,3 +42,10 @@ const SchedulePage = () => {
 
 }
 export default SchedulePage;
+
+/*
+ * 
+ *   <PDFViewer>
+                    <Schedule />
+                </PDFViewer>
+ * */

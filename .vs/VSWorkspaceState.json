@@ -3,11 +3,12 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\Files",
     "\\src\\GlobalWebpageHooks",
     "\\src\\Logos",
     "\\src\\Pages",
     "\\src\\Photos"
   ],
-  "SelectedNode": "\\src\\Pages\\Connect.js",
+  "SelectedNode": "\\src\\GlobalWebpageHooks\\Schedule.js",
   "PreviewInSolutionExplorer": false
 }
