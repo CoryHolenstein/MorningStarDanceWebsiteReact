@@ -9,7 +9,7 @@ const Classes = () => {
 
 
     useEffect(() => {
-        document.title = "Classes"
+        document.title = "MorningStar Dance | Classes"
     }, []);
 
 

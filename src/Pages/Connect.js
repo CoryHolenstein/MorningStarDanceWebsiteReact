@@ -11,7 +11,7 @@ const Connect = () => {
 
 
     useEffect(() => {
-        document.title = "Connect"
+        document.title = "MorningStar Dance | Connect"
     }, []);
 
 
@@ -20,7 +20,7 @@ const Connect = () => {
     return (
 
 
-        <div className="App">
+        <div className="connect">
             <TopBanner />
             <NavigationBar />
 

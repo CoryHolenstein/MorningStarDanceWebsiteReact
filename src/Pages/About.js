@@ -9,7 +9,7 @@ const About = () => {
 
 
     useEffect(() => {
-        document.title = "About"
+        document.title = "MorningStar Dance | About"
     }, []);
 
 

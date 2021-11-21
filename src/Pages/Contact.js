@@ -14,7 +14,7 @@ const Contact = () => {
     const form = useRef();
 
     useEffect(() => {
-        document.title = "Contact Us"
+        document.title = "MorningStar Dance | Contact Us"
     }, []);
 
     const sendEmail = (e) => {

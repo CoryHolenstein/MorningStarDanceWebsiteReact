@@ -11,7 +11,7 @@ const Home = () => {
 
 
     useEffect(() => {
-        document.title = "Home"
+        document.title = "MorningStar Dance | Home"
     }, []);
 
 
@@ -23,7 +23,7 @@ const Home = () => {
             <TopBanner />
             <NavigationBar />
 
-            <div className="content">
+            <div className="content-home">
 
                
                 <Slideshow />

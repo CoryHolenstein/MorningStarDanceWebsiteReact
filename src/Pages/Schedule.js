@@ -5,14 +5,14 @@ import NavigationBar from '../GlobalWebpageHooks/NavigationBar';
 import TopBanner from '../GlobalWebpageHooks/TopBanner';
 import Footer from '../GlobalWebpageHooks/Footer';
 
-import Schedule from '../GlobalWebpageHooks/Schedule';
 import { PDFViewer } from '@react-pdf/renderer';
 
+import Fall_Calendar from '../Files/Fall_Calendar.pdf'
 const SchedulePage = () => {
 
 
     useEffect(() => {
-        document.title = "Schedule"
+        document.title = "MorningStar Dance | Schedule"
     }, []);
 
 
@@ -25,11 +25,17 @@ const SchedulePage = () => {
             <TopBanner />
             <NavigationBar />
 
-            <div className="content-about">
+            <div className="content-schedule">
                 <h1>Schedule</h1>
-                       <Schedule/>
-                <br></br>
+                <object src={Fall_Calendar} type="application/pdf" width="100%" height="100%">
+                    <p>If your web browser doesn't have a PDF plugin,
+                        you can <a href={Fall_Calendar}>click here to
+                            download the PDF file.</a></p>
+                </object>
+                <embed src={Fall_Calendar} type="application/pdf" width="100%" height="600px" />
+             
             </div>
+          
             <Footer />
         </div>
 

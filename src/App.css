@@ -10,14 +10,22 @@
     max-width: 100%;
 }
 
+
 .header {
     background-color: #5CDB95;
 }
 .content {
     background-color: #5CDB95;
     padding: 12px;
-    text-align: center;
 }
+.content-home {
+    background-color: #5CDB95;
+    padding: 12px;
+    text-align: center;
+    padding-bottom: 20%;
+
+}
+
 .content-contact {
     background-color: #5CDB95;
     padding: 12px;
@@ -44,6 +52,13 @@
     text-align: center;
     width: 100%;
     padding-bottom: 35%;
+    height: 100vh;
+}
+.content-instructors {
+    background-color: #5CDB95;
+    text-align: center;
+    width: 100%;
+    padding: 0% 10% 15% 10%;
 }
 
 .content-classes {
@@ -53,11 +68,14 @@
     padding-bottom: 20%;
 }
 
-@media only screen and (min-width: 600px) {
-    .content-connect {
-        padding-bottom: 28%;
-    }
+.content-schedule {
+    background-color: #5CDB95;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10%;
 }
+
+
 .footer {
     justify-content: center;
     background: #5CDB95;
@@ -77,13 +95,23 @@
 }
 h1 {
     font-family: serif;
-    font-weight: 900;
     color: black;
+}
+h3 {
+    font-family: serif;
+    color: black;
+}
+
+Instructors-p {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #05386B;
 }
 p {
     font-family: serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     color: #05386B;
 }
 
