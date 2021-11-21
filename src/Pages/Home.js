@@ -49,3 +49,7 @@ const Home = () => {
 
 }
 export default Home;
+/*
+ * page has basic text and grabs the slideshow component. to edit the slideshow, navigate to Slideshow.js under "globalWebpageHooks" folder.
+ * 
+ * */

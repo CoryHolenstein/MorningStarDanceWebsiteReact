@@ -44,7 +44,7 @@ const About = () => {
                 The founder and artistic director of MSDA is Mr. Chen Xiao, a former professional dancer with almost thirty years of experience and a recipient of a top award at the International Ballet Competition in Osaka, Japan. He worked with other faculty members of MSDA to teach the discipline and technique necessary in dance education and to create a joyful and passionate learning environment.
                     By identifying and focusing on a student's individual capabilities, he is able to bring out the best in each dancer. In 2013, Mr. Chen Xiao received the "Outstanding Teacher" recognition from the Youth America Grand Prix (YAGP) regional semi-final, one of the most prestigious ballet competitions in the world,
                     for his passion and special contribution to ballet education.
-                </p>>
+                </p>
                 <p>
                     Students of MSDA are offered many performance opportunities throughout the year.
                     They participate frequently in local community activities such as multi-cultural festivals and celebrations, and are also provided many opportunities to perform whole act ballets such as
@@ -84,3 +84,10 @@ const About = () => {
 
 }
 export default About;
+
+/*  To alter the text, simply replace the text within the paragraph, or p tags. To add more content, simply add another <p> </p> and put text in between the two. 
+ * 
+ * 
+ * 
+ *
+ **/

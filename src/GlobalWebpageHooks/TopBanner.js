@@ -42,4 +42,8 @@ const TopBanner = () => {
 
 }
 export default TopBanner;
-
+/*
+ * This is the main banner image that sits at the top of every page. To edit it, rename the desired photo to "top_banner.png", navigate to the Photos folder, delete the old picture named "top_banner.png" and put in the new one.
+ *
+ * 
+ * */

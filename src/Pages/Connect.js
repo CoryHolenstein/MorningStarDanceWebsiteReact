@@ -31,12 +31,14 @@ const Connect = () => {
                     <Button variant="primary" size="lg">
                             Facebook
                             <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png" width="30" height="30" alt="facebook icon png background" />
-                    </Button></a>
+                        </Button></a>
+
                     <a href="https://www.instagram.com/morningstardance/" title="Image from freepnglogos.com">
                     <Button variant="secondary" size="lg">
                             Instagram
                             <img src="https://www.freepnglogos.com/uploads/instagram-transparent-logo-png-images-24.png" width="30" height="30" alt="instagram transparent logo png images" /> 
-                    </Button></a>
+                        </Button></a>
+
                     <a href="https://www.youtube.com/user/morningstardance" title="Image from freepnglogos.com">
                     <Button variant="danger" size="lg">
                             Youtube
@@ -59,3 +61,8 @@ const Connect = () => {
 
 }
 export default Connect;
+/*
+ * 
+ * To add a link - copy a format from above and edit - img src="" should be the link to the desired page. Variant="" is the color of the button, and to my knowledge there is three, primary, secondary and danger, which is blue, grey and red respectively. 
+ * 
+ * */

@@ -43,3 +43,10 @@ const Slideshow = () => {
 }
 
 export default Slideshow;
+
+
+/*
+ * To add a photo to the slideshow - rename image to "dance_#.jpg", add image to the folder called "photos" - import at the top by doing "import dance_image_# from '../Photos/dance_#.jpg"
+ * To delete a photo - just remove the slide from the array called slideImages
+ * 
+ * */

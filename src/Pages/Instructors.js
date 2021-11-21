@@ -95,3 +95,10 @@ const Instructors = () => {
 export default Instructors;
 
 //<img class="MainBannerImage" src={BannerImage} alt="Mainbanner" />
+
+/*
+ * To delete an instructor, simply delete the "h3" tag, down to the "hr" tag, to add an instructor, simply copy an existing instructor, from "h3" tag to "hr" tag. Edit name and information. 
+ * To change the photo, upload the image to the "photos" folder, and import it at the top. Change the "img src={"Sara"}" (for example) to the name of the file you just imported. 
+ * 
+ * 
+ * */

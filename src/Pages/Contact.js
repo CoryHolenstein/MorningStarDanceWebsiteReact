@@ -77,10 +77,10 @@ const Contact = () => {
 
 
 
-
-
-
-
-
 }
 export default Contact;
+
+/*
+ * To edit the emailing function, consult Email-JS documentation. To change basic information on page, simply edit the labels or tags. 
+ * 
+ * */

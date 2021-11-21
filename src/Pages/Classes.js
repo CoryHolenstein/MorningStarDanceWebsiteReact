@@ -50,3 +50,7 @@ const Classes = () => {
 
 }
 export default Classes;
+/*
+ * To add another class, add <p> </p> and add text in between. 
+ * 
+ * */

@@ -8,6 +8,8 @@ import Footer from '../GlobalWebpageHooks/Footer';
 import { PDFViewer } from '@react-pdf/renderer';
 
 import Fall_Calendar from '../Files/Fall_Calendar.pdf'
+
+
 const SchedulePage = () => {
 
 
@@ -50,8 +52,6 @@ const SchedulePage = () => {
 export default SchedulePage;
 
 /*
- * 
- *   <PDFViewer>
-                    <Schedule />
-                </PDFViewer>
+ * This page simply embeds the PDF file. To change the file, simply navigate to "files" folder, drag in the new schedule and name it somethign simple such as "Summer_Calendar_2022" and at the top of the page do:
+ * import Summer_Calendar_22 from '../Files/Summer_Calendar_2022.pdf' and in the code, find the old calendar name and replace it, as it currently stands it is "{Fall_Calendar}" so it would be "{Summer_Calendar_22}"
  * */
