@@ -6,6 +6,9 @@ import NavigationBar from '../GlobalWebpageHooks/NavigationBar';
 import TopBanner from '../GlobalWebpageHooks/TopBanner';
 import Footer from '../GlobalWebpageHooks/Footer';
 import facebook_logo from '../Logos/facebook-logo.png';
+import instagram_logo from '../Logos/instagram-logo.png';
+import youtube_logo from '../Logos/youtube-logo.png';
+
 
 const Connect = () => {
 
@@ -30,19 +33,19 @@ const Connect = () => {
                     <a href="https://www.facebook.com/MorningStar-Dance-Academy-of-Atlanta-160797744008230/" title="facebook image">
                     <Button variant="primary" size="lg">
                             Facebook
-                            <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png" width="30" height="30" alt="facebook icon png background" />
+                            <img src={facebook_logo} width="30" height="30" alt="facebook icon png background" />
                         </Button></a>
 
                     <a href="https://www.instagram.com/morningstardance/" title="Image from freepnglogos.com">
                     <Button variant="secondary" size="lg">
                             Instagram
-                            <img src="https://www.freepnglogos.com/uploads/instagram-transparent-logo-png-images-24.png" width="30" height="30" alt="instagram transparent logo png images" /> 
+                            <img src={instagram_logo} width="30" height="30" alt="instagram transparent logo png images" />
                         </Button></a>
 
                     <a href="https://www.youtube.com/user/morningstardance" title="Image from freepnglogos.com">
                     <Button variant="danger" size="lg">
                             Youtube
-                            <img src="https://www.freepnglogos.com/uploads/for-youtube-logo-png-transparent-2.png" width="30" height="30" alt="for youtube logo png transparent" />
+                            <img src={youtube_logo}width="30" height="30" alt="for youtube logo png transparent" />
                         </Button></a>
                 </div>
 
